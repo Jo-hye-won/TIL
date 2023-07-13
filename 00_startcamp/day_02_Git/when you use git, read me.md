@@ -115,7 +115,7 @@ $ git log
 commit 17c89d5e13d6f818b68b8db717e0ae2bc49c6701 (HEAD -> master) : 커밋 버전을 알려주는 고유값 난수 : 중복될 일이 없다. 
 
 
->정리 : add로 staging area에 추가하고 나서 repository에 저장하고나서 git log로 기록 확인하기!
+>★★★★정리 : add로 staging area에 추가하고 나서 repository에 저장하고나서 git log로 기록 확인하기!★★★★
 
 
 ### 오타있게 커밋했기 때문에 수정을 하고 싶다!(직전커밋수정)
