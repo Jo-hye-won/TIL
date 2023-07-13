@@ -69,3 +69,5 @@ $ rm -r{폴더}
 
 
 ## one-dash / double-dash
+- one-dash : 명령어 option을 축약된 형태로 입력
+- double-dash : 축약된 형태 없이 표준어 그대로 옵션 입력 / 명령어의 직관적인 이해 가능
