@@ -85,4 +85,28 @@ git rm : rm 리무브 해줘 cach 캐싱되어있는 정보를 unstage할 수 �
 ```bash
 $ git commit -m "commit message"
 ```
+  - : 약어
 
+
+### git 기초설정하기
+```bash
+$ git config --global user.email "hws9701@naver.com"
+
+$ git config --global user.name "조혜원"
+
+$ git config --global --list
+```
+git config --global user.email "hws9701@naver.com"
+git config --global user.name "조혜원"
+git config --global --list 하면 설정 잘했는지 확인할 수있음!
+
+### 터미널에서 복사 붙여넣기
+- 복사 : 오른쪽 마우스
+- 붙여넣기 : shift + insert
+
+### 커밋 기록 확인하기
+```bash
+$ git log
+```
+
+commit 17c89d5e13d6f818b68b8db717e0ae2bc49c6701 (HEAD -> master) : 커밋 버전을 알려주는 고유값 난수 : 중복될 일이 없다. 
