@@ -87,7 +87,6 @@ $ git commit -m "commit message"
 ```
   - : 약어
 
-
 ### git 기초설정하기
 ```bash
 $ git config --global user.email "hws9701@naver.com"
@@ -110,3 +109,23 @@ $ git log
 ```
 
 commit 17c89d5e13d6f818b68b8db717e0ae2bc49c6701 (HEAD -> master) : 커밋 버전을 알려주는 고유값 난수 : 중복될 일이 없다. 
+
+
+>정리 : add로 staging area에 추가하고 나서 repository에 저장하고나서 git log로 기록 확인하기!
+
+
+### 오타있게 커밋했기 때문에 수정을 하고 싶다!(직전커밋수정)
+```bash
+git commit --amend   # amend : 개정하다
+# vim에서 커밋 내용 수정하기
+```
+1. 삽입가능(수정가능)한 상태로 만들어야 함 : insert 키 누르기
+2. 커밋 메시지 수정하기
+3. Esc로 수정끝났음을 알리기(삽입 상태 종료)
+4. :wq 입력해서 저장하고 종료(write quit의 의미)
+5. 나와서 git log 확인하면 수정되어 있음
+
+
+>(use "git restore <file>..." to discard changes in working directory) :
+워킹디렉토리에서 발생한 변경사항을 없애는 친구 : 마지막 변동사항에서 추가 변동사항을 없애서 최신 저장되었던 상태로 돌아가는 것!
+
