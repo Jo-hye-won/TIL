@@ -23,7 +23,7 @@ $ start .
 $ code .
 ```
 
-- vs코드야 (README)파일을 열어줘
+- vs코드야 (README)파일을 만들어줘
 ```bash
 $ code README.md
 # ctrl+s로 저장
