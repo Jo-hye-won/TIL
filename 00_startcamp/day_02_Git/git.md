@@ -13,8 +13,6 @@ print('hello, git!')
 - 이전 버전과의 변경 사항 비교
 
 
-
-
 > 버전 관리 : 변화를 기록하고 추적하는 것
 
 ### 분산과 중앙집중식
@@ -79,6 +77,12 @@ $ git add README.md
 $ git add {path}<folder_name>/{file_name}
 ```
 
+## 파일 안에 있는거 다 커밋하려면
+```bash
+$ git add . 
+ # 여기서 . 은 현재파일을 말한다
+ ```
+
 git rm : rm 리무브 해줘 cach 캐싱되어있는 정보를 unstage할 수 있도록
 
 ### repository 에 저장하기
@@ -128,4 +132,32 @@ git commit --amend   # amend : 개정하다
 
 >(use "git restore <file>..." to discard changes in working directory) :
 워킹디렉토리에서 발생한 변경사항을 없애는 친구 : 마지막 변동사항에서 추가 변동사항을 없애서 최신 저장되었던 상태로 돌아가는 것!
+
+
+
+- cd ~ 으로 파일이동하기~~
+> 방향키로 움직이면 log 다 볼 수 있음
+-> log에서 나가려면 q 누르면 나가진다~~~
+
+github와 gitlab = remote repository(원격저장소)
+
+
+
+### git 설정 초기화
+```bash
+# vim을 활용해서 설정 제거하기
+# vim git 설정 파일 열기
+$ vim ~/.gitconfig
+# inser 키 : 수정 상태 만들기
+# --insert-- 인 상태에서 모든 내용 삭제
+# esc: 수정 상태 종료
+# :wq
+```
+
+- code ~/.gitconfig : vscode에서 수정하기
+
+```bash
+$ git log --oneline
+# log를 하나의 라인으로 보여주세요
+```
 
