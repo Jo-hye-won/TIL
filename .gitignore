@@ -7,3 +7,6 @@ a.txt파일
 
 https://www.toptal.com/developers/gitignore/   : 깃이그노어 경로만들어주는거
 ctrl+a ,ctrl+c 해서 전체 복사붙여넣기하기
+
+
+* git remote -v : git 올리고 내려받는 경로 알려주는 거, remote 닉네임도 알 수 있음!
