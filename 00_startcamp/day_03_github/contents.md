@@ -10,3 +10,5 @@ $ git push lab master
 ```
 
 - repository  연동 : github, gitlab
+- gitignore : 공유하지 않을 파일 -> db에 사용됨, 가상환경, 개인설정들
+ .gitignore 파일 생성(.을 파일이름 앞에 )

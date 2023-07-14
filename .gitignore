@@ -1,0 +1,9 @@
+#현재 폴더에 있는 a.txt파일
+a.txt파일
+
+# 현재 폴더에 있는 01_python파일
+01_python/  (상대경로임)
+
+
+https://www.toptal.com/developers/gitignore/   : 깃이그노어 경로만들어주는거
+ctrl+a ,ctrl+c 해서 전체 복사붙여넣기하기
