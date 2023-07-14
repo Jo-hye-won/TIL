@@ -5,7 +5,8 @@
 
 5. 새 레포지터리 만들어서 이름 정하고 : 이건 깃허브에서
 
-6. git remote add origin {복사한 레포지터리경로}
+6. git init 후 -> 
+    git remote add origin {복사한 레포지터리경로}
 7. git push origin master 로 깃에 올리기
 8. 잘올라갔는지 확인하기
 
