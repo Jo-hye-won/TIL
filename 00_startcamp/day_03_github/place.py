@@ -24,7 +24,8 @@ for index in range(0,len(students), 6): # range(n) -> 0 ~ n-1 0부터 시작 렌
     for i in range(6): # 0~5까지의 숫자가 i 에 들어간다
         if i!=0 and i % 3 ==0:
             print('         ', end=' ') # 복도만들어주자
-        print(students[index+i], end='') # end='' => print가 기본적으로 end가 \n으로 되어있어서 줄이 바뀌기 때문에 end='' 이렇게 공백을 주면 한줄로 나옴
+        print(students[index+i], end='') 
+        # end='' => print가 기본적으로 end가 \n으로 되어있어서 줄이 바뀌기 때문에 end='' 이렇게 공백을 주면 한줄로 나옴
     print()
 
 # 4. 자리 모양에 맞춰서 출력하기
