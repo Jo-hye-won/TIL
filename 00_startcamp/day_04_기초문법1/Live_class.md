@@ -45,6 +45,8 @@
 1+2 : 하나의 '표현식'
 - 표현식 : 값, 변수, 연산자 등을 조합하여 계산되고 결과를 내는 코드 구조/
 표현식이 '평가'되어 값이 반환됨
+ 
+    : 그냥 값 하나도 표현식
 
 - 평가(Evaluate) : 표현식이나 문장을 순차적으로 평가하여 프로그램의 동자가을 결정함
 ex) hi 가 올바른값인지 평가 후 greeting 에 할당함
@@ -59,6 +61,10 @@ ex) hi 가 올바른값인지 평가 후 greeting 에 할당함
 : 모든 표현식은 문장이다. 
 반면에 어떤 문장은 표현식이 아니다.
 
+### f'string
+문자열 안에 표현식을 집어넣고 쓸 수 있음.
+
+
 ## 타입
 > 값이 어떤 종류의 데이터인지, 어떻게 해석되고 처리되어야 하는지를 정의
 
@@ -67,16 +73,16 @@ ex) hi 가 올바른값인지 평가 후 greeting 에 할당함
 
 ### 데이터 타입
 - Numeric Type : int(정수), float(실수) , complex(복소수) : 단일 데이터들
-- 시퀀스 타입 : list, tuple, range : 순서가 있는 데이터들
+- (Sequence)시퀀스 타입 : list, tuple, range : 순서가 있는 데이터들
 - text 시퀀스 타입 : str(문자열): 순서가 있음 'Hello'의 하나하나가 순서가 있고 인덱스에 넣어서 하나하나 조회할 수 있다는 뜻
 - set types : 집합의 연산을 할 수 있음
-- 메핑타입 : dict : key-value 형태로 되어있는 것
+- Mapping Types(매핑타입) : dict : key-value 형태로 되어있는 것 : 데이터 다룰 때 자주 사용할 것(데이터 받아오거나 만들거나 할 때)
 - 기타 : None(값이 없음을 의미), Boolean(True/False), Function
 
 ## 산술 연산자
-- / : 나눗셈
+-  / : 나눗셈
 - // : 정수 나눗셈(몫)
-- % : 나머지
+-  % : 나머지
 - ** : 지수(거듭제곱)
 
 ### 연산자 우선순위 ★★
@@ -100,7 +106,7 @@ $ degrees = 36.5
 - 영문 알파벳, 언더스코어(_),숫자로 구성
 - 숫자로 시작할 수 없음
 - 대소문자를 구분
-- 아래 키워드는 파이썬을 내부 예약어로 사용할 수 없음
+- 아래 키워드는 파이썬을 내부 예약어로 사용할 수 없음 : 예약어는 애초에 색이 다르게 나온다!
 > ['Flase', 'None', 'True', 'and', 'as', assert, async, await, class, break, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lamda, nonlocal, not, or, pass, raise, return, try, while, with, yield, __peg_parser__, elif]
 
 ### 변수, 값 그리고 메모리
