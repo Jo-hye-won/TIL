@@ -139,6 +139,10 @@ print(double) #20
 
 1. 변수명은 무엇을 위한 변수인지 직관적인 이름을 가져야 함(변수의 이름을 보고 뭘 가지는 변수인지 알 수 있도록)
 - 'is_'로 시작하는 함수나 변수는 값을 True나 False를 가지고 있는 것을 할당하는 것이 암묵적 룰( is_ -> T/F)
+```bash
+$ temperature = 25
+is_hot = temperature > 30
+```
 
 - 단/복수도 알 수있게
 ```bash
@@ -157,6 +161,8 @@ SECONDS_PER_MINUTE = 60
 3. 한 줄의 길이는 79자로 제한하며, 길어질 경우 줄 바꿈을 사용
 4. 문자와 밑줄(_)을  사용하여 함수, 변수, 속성의 이름을 작성
 > snake_case 라고 함
+> Pascal Case / camel case 도 있음
+
 5. 함수 정의나 클래스 정의 등의 블록 사이에는 빈 줄을 추가
 ```bash
 $ def simple():
