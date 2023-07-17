@@ -10,6 +10,25 @@ a_range = range(11)
 a_tuple = (1, 2, 3)
 boolean = True
 
+# 인스턴스  사용해서 TRUE 나오게 만들기!!
+result = isinstance(string,str)
+print(result)
+result = isinstance(integer,int)
+print(result)
+result = isinstance(floating_point,float)
+print(result)
+result = isinstance(a_list,list)
+print(result)
+result = isinstance(dictionary,dict)
+print(result)
+result = isinstance(a_set,set)
+print(result)
+result = isinstance(a_range,range)
+print(result)
+result = isinstance(a_tuple,tuple)
+print(result)
+result = isinstance(boolean,bool)
+
 
 # print(type(string))
 # print(type(integer))
@@ -21,6 +40,5 @@ boolean = True
 # print(type(a_tuple))
 # print(type(boolean))
 
-# 인스턴스  사용
-result = isinstance(type(string),str)
-print(result)
+# 문자열이랑 문자열 붙여서 나오게 하는거 + 쓰면 된다
+# , 하면 띄어쓰기됨
