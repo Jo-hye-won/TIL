@@ -192,6 +192,7 @@ git push second master
 $ git remote add{remote_nickname}{remote_url}
 # git remote add origin {내 깃허브 주소}
 ```
+git remote remove origin -> 주소 잘못 설정했을 때 지우는 것
 
 ### 원격 저장소에 저장
 ```bash
@@ -208,3 +209,5 @@ $ git clone {주소복사:repository_url}
 ```bash
 $ git pull origin master
 ```
+
+
