@@ -42,3 +42,7 @@ result = isinstance(boolean,bool)
 
 # 문자열이랑 문자열 붙여서 나오게 하는거 + 쓰면 된다
 # , 하면 띄어쓰기됨
+
+# 상수는 모두 대문자로 작성하기로 암묵적 약속!!!
+
+# lectures에서 bash열어서 git pull origin master 하기
