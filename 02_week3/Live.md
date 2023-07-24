@@ -109,8 +109,9 @@ $ print(string2.isalpha()) # False
 ## 리스트 ★★★★
 
 ### 리스트 값 추가 및 삭제 메서드
-- L.append(x) : 리스트 마지막에 항목 x를 추가
-- L.extend(iterable) : 리스트에 다른 반복 가능한 객체의 모든 항목을 추가
+- L.append(x) : 리스트 마지막에 항목 x를 추가 ★
+- L.extend(iterable) : 리스트에 다른 반복 가능한 객체의 모든 항목을 추가★
+
 ```bash 
 # extend와 append의 차이
 
