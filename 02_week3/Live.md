@@ -176,7 +176,23 @@ numbers = [3,2,1]
 # sorted 함수
 print(sorted(numbers)) # [1,2.3] -> 반환이 있다. 원본은 바뀌지 않았다. 
 print(numbers)  # [3,2,1]
+
+
+
+# 과제 2번 #
+def find_min_max(nums):
+    # my_list = nums.sort() # 원본을 정렬하는 거라서 변수할당할 필요 없음
+    nums.sort()
+    min = nums[0]
+    max = nums[-1]
+    # my_tuple = ','.join(min,max)
+    return (min, max)
+
+result = find_min_max([3, 1, 7, 2, 5])
+print(result) # (1, 7)
+
 ```
+
 
 #### 4. count(x)
 > 리스트에서 항목 x가 등장하는 횟수를 반환
@@ -208,3 +224,5 @@ print(list1)  # [100,2,3] -> 원본에 따라서 바뀜
 print(list2)  # [1,2,3] -> 애초에 겉보기만 같고 실제 주소는 아예 다른 방에 들어있는 리스트였기에 그대로이다. 
 
 ```
+
+
