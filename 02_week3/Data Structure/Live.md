@@ -135,7 +135,7 @@ set = {0,1,2,3,4}
 
 ```
 
-### 2. get(k[,default])
+### 2. get(k [, default])
 > 키 연결된 값을 반환하거나 키가 없으면 None 혹은 기본값을 반환
 - get() = 메서드임 | 함수임 
 - 함수 반환할 값이 없으면  None 반환함
@@ -239,9 +239,9 @@ blood_types =['A','B','A','O','AB','AB','O','A','B','O','B','O','B','AB']
 new_dict ={}
 # blood_types을 순회하면서
 for blood_type in blood_types:
-    # 기존에 키가 이미 존재한다면,
+                                   # 기존에 키가 이미 존재한다면,
     if blood_type in new_dict:
-        # 기존에 키의 값을 +1 증가
+                                    # 기존에 키의 값을 +1 증가
         new_dict[blood_type] += 1
         
     # 키가 존재하지 않는다면(처음 설정되는 키)
